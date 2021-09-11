@@ -1,0 +1,23 @@
+@use "../../../../styles/base/colors";
+
+.icon {
+  background-color: colors.$text;
+  width: 18px;
+  height: 11px;
+}
+
+.icon::after {
+  content: "";
+  padding: 2px 9px;
+  background-color: colors.$background;
+  position: absolute;
+  transform: rotate(0deg) translateY(1px);
+}
+
+.icon::before {
+  content: "";
+  padding: 2px 10px;
+  background-color: colors.$background;
+  position: absolute;
+  transform: rotate(0deg) translateY(6px);
+}
