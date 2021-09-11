@@ -7,7 +7,9 @@
     "frontend:dev": "cd frontend && yarn dev",
     "frontend:build": "cd frontend && yarn build",
     "frontend:start": "cd frontend && yarn start",
-    "frontend:lint": "cd frontend && yarn lint"
+    "frontend:lint": "cd frontend && yarn lint",
+    "frontend:add": "cd frontend && yarn add",
+    "frontend:install": "cd frontend && yarn install"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/ibrahimdenizz/youtube-clone/issues"
   },
-  "homepage": "https://github.com/ibrahimdenizz/youtube-clone#readme"
+  "homepage": "https://github.com/ibrahimdenizz/youtube-clone#readme",
+  "dependencies": {}
 }
