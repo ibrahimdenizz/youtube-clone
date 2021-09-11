@@ -1,0 +1,23 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "Youtube Clone Project",
+  "main": "index.js",
+  "scripts": {
+    "frontend:dev": "cd frontend && yarn dev",
+    "frontend:build": "cd frontend && yarn build",
+    "frontend:start": "cd frontend && yarn start",
+    "frontend:lint": "cd frontend && yarn lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimdenizz/youtube-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimdenizz/youtube-clone/issues"
+  },
+  "homepage": "https://github.com/ibrahimdenizz/youtube-clone#readme"
+}
