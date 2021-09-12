@@ -10,7 +10,7 @@ import FashionBeautyIcon from "./sidebar/FashionBeauty";
 import GamingIcon from "./sidebar/Gaming";
 import HelpIcon from "./sidebar/Help";
 import HistoryIcon from "./sidebar/History";
-import HomeIcon from "../../pages/index";
+import HomeIcon from "./sidebar/Home";
 import LearningIcon from "./sidebar/Learning";
 import LibraryIcon from "./sidebar/Library";
 import LikedVideosIcon from "./sidebar/LikedVideos";
