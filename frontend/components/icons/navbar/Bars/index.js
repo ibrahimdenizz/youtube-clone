@@ -1,4 +1,4 @@
-import styles from "./sidebar.module.scss";
+import styles from "./bars.module.scss";
 
 function Sidebar() {
   return <div class={styles.icon}></div>;
