@@ -1,0 +1,49 @@
+@use "../../styles/base/colors";
+
+.youtube-logo-wrapper {
+  display: flex;
+}
+
+.youtube-logo-lang {
+  color: #606060;
+  font-size: 10px;
+  font-weight: 600;
+  position: relative;
+  left: 85px;
+  bottom: 5px;
+}
+
+.youtube-logo {
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 20px;
+  background-color: colors.$yt_red;
+  border-radius: 7px;
+  position: relative;
+}
+.youtube-logo::after {
+  content: "Youtube";
+  font-weight: bold;
+  margin-left: 32px;
+  margin-top: 10px;
+  color: colors.$text;
+  font-size: 24px;
+  letter-spacing: -2px;
+  position: relative;
+  bottom: 8px;
+}
+
+.youtube-logo::before {
+  content: "";
+  position: absolute;
+  padding: 4px;
+  transform: translate(9px, 6px) rotate(-45deg);
+  background: linear-gradient(
+    to bottom right,
+    colors.$yt_red 0%,
+    colors.$yt_red 50%,
+    white 50%,
+    white 100%
+  );
+}
