@@ -1,4 +1,4 @@
-function Subscription({ className, width, height, color }) {
+function Subscription({ className, width, height }) {
   return (
     <div
       className={className}
@@ -17,10 +17,7 @@ function Subscription({ className, width, height, color }) {
         class="style-scope yt-icon"
       >
         <g class="style-scope yt-icon">
-          <path
-            d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z"
-            style={{ fill: color || "black" }}
-          ></path>
+          <path d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z"></path>
         </g>
       </svg>
     </div>

@@ -1,4 +1,4 @@
-function UpArrow({ className, width, height, color }) {
+function UpArrow({ className, width, height }) {
   return (
     <div
       className={className}
@@ -20,7 +20,6 @@ function UpArrow({ className, width, height, color }) {
           <polygon
             points="18.4,14.6 12,8.3 5.6,14.6 6.4,15.4 12,9.7 17.6,15.4 "
             class="style-scope yt-icon"
-            style={{ fill: color || "black" }}
           ></polygon>
         </g>
       </svg>

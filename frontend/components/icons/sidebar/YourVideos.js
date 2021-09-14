@@ -1,4 +1,4 @@
-function YourVideos({ className, width, height, color }) {
+function YourVideos({ className, width, height }) {
   return (
     <div
       className={className}
@@ -17,10 +17,7 @@ function YourVideos({ className, width, height, color }) {
         class="style-scope yt-icon"
       >
         <g class="style-scope yt-icon">
-          <path
-            d="M10,8l6,4l-6,4V8L10,8z M21,3v18H3V3H21z M20,4H4v16h16V4z"
-            style={{ fill: color || "black" }}
-          ></path>
+          <path d="M10,8l6,4l-6,4V8L10,8z M21,3v18H3V3H21z M20,4H4v16h16V4z"></path>
         </g>
       </svg>
     </div>

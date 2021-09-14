@@ -1,4 +1,4 @@
-function Home({ className, width, height, color }) {
+function Home({ className, width, height }) {
   return (
     <div
       className={className}
@@ -17,10 +17,7 @@ function Home({ className, width, height, color }) {
         class="style-scope yt-icon"
       >
         <g class="style-scope yt-icon">
-          <path
-            d="M4,10V21h6V15h4v6h6V10L12,3Z"
-            style={{ fill: color || "black" }}
-          ></path>
+          <path d="M4,10V21h6V15h4v6h6V10L12,3Z"></path>
         </g>
       </svg>
     </div>

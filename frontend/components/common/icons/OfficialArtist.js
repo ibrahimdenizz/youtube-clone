@@ -1,4 +1,4 @@
-function OfficialArtist({ className, width, height, color }) {
+function OfficialArtist({ className, width, height }) {
   return (
     <div
       className={className}
@@ -17,10 +17,7 @@ function OfficialArtist({ className, width, height, color }) {
         class="style-scope yt-icon"
       >
         <g class="style-scope yt-icon">
-          <path
-            d="M12,4v9.38C11.27,12.54,10.2,12,9,12c-2.21,0-4,1.79-4,4c0,2.21,1.79,4,4,4s4-1.79,4-4V8h6V4H12z"
-            style={{ fill: color || "black" }}
-          ></path>
+          <path d="M12,4v9.38C11.27,12.54,10.2,12,9,12c-2.21,0-4,1.79-4,4c0,2.21,1.79,4,4,4s4-1.79,4-4V8h6V4H12z"></path>
         </g>
       </svg>
     </div>

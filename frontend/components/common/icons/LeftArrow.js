@@ -1,4 +1,4 @@
-function LeftArrow({ className, width, height, color }) {
+function LeftArrow({ className, width, height }) {
   return (
     <div
       className={className}
@@ -17,10 +17,7 @@ function LeftArrow({ className, width, height, color }) {
         class="style-scope yt-icon"
       >
         <g class="style-scope yt-icon">
-          <path
-            d="M10.15,13.35L4.79,8l5.35-5.35l0.71,0.71L6.21,8l4.65,4.65L10.15,13.35z"
-            style={{ fill: color || "black" }}
-          ></path>
+          <path d="M10.15,13.35L4.79,8l5.35-5.35l0.71,0.71L6.21,8l4.65,4.65L10.15,13.35z"></path>
         </g>
       </svg>
     </div>

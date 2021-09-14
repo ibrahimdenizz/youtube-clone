@@ -1,4 +1,4 @@
-function DownArrow({ className, width, height, color }) {
+function DownArrow({ className, width, height }) {
   return (
     <div
       className={className}
@@ -17,10 +17,7 @@ function DownArrow({ className, width, height, color }) {
         class="style-scope yt-icon"
       >
         <g class="style-scope yt-icon">
-          <path
-            d="M12,15.7L5.6,9.4l0.7-0.7l5.6,5.6l5.6-5.6l0.7,0.7L12,15.7z"
-            style={{ fill: color || "black" }}
-          ></path>
+          <path d="M12,15.7L5.6,9.4l0.7-0.7l5.6,5.6l5.6-5.6l0.7,0.7L12,15.7z"></path>
         </g>
       </svg>
     </div>

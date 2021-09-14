@@ -1,7 +1,7 @@
 import styles from "./bars.module.scss";
 
-function Sidebar() {
-  return <div class={styles.icon}></div>;
+function Bars({ className }) {
+  return <div class={`${styles.icon} ${className}`}></div>;
 }
 
-export default Sidebar;
+export default Bars;
