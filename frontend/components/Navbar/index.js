@@ -1,78 +1,37 @@
+import NavbarYoutubeLogo from "../NavbarYoutubeLogo";
 import {
-  BarsIcon,
-  SearchIcon,
-  MicIcon,
-  CreateVideoIcon,
   ApplicationsIcon,
+  BarsIcon,
+  CreateVideoIcon,
   NotificationIcon,
-  HomeIcon,
-  ExploreIcon,
-  SubscriptionIcon,
-  LibraryIcon,
-  HistoryIcon,
-  YourVideosIcon,
-  WatchLaterIcon,
-  LikedVideosIcon,
-  VideoListIcon,
-  BrowseChannelsIcon,
-  GamingIcon,
-  LiveIcon,
-  FashionBeautyIcon,
-  LearningIcon,
-  SportsIcon,
-  SettingsIcon,
-  ReportIcon,
-  HelpIcon,
-  SendFeedbackIcon,
 } from "../icons";
 
-import {
-  UpArrowIcon,
-  DownArrowIcon,
-  RightArrowIcon,
-  LeftArrowIcon,
-  YoutubeLogoIcon,
-  VerifiedIcon,
-  OfficialArtistIcon,
-  CloseIcon,
-} from "../common/icons";
+import style from "./style.module.scss";
+import NavbarSearch from "../NavbarSearch";
+import Image from "next/image";
 
 function Navbar() {
   return (
-    <div className="d-flex m-3">
-      <BarsIcon />
-      <SearchIcon color="white" />
-      <MicIcon color="white" />
-      <CreateVideoIcon color="white" />
-      <ApplicationsIcon color="white" />
-      <NotificationIcon color="white" />
-      <HomeIcon color="white" />
-      <ExploreIcon color="white" />
-      <SubscriptionIcon color="white" />
-      <LibraryIcon color="white" />
-      <HistoryIcon color="white" />
-      <YourVideosIcon color="white" />
-      <WatchLaterIcon color="white" />
-      <LikedVideosIcon color="white" />
-      <VideoListIcon color="white" />
-      <UpArrowIcon color="white" />
-      <DownArrowIcon color="white" />
-      <RightArrowIcon color="white" />
-      <LeftArrowIcon color="white" />
-      <BrowseChannelsIcon color="white" />
-      <YoutubeLogoIcon color="white" />
-      <GamingIcon color="white" />
-      <LiveIcon color="white" />
-      <FashionBeautyIcon color="white" />
-      <LearningIcon color="white" />
-      <SportsIcon color="white" />
-      <SettingsIcon color="white" />
-      <ReportIcon color="white" />
-      <HelpIcon color="white" />
-      <SendFeedbackIcon color="white" />
-      <VerifiedIcon color="white" />
-      <OfficialArtistIcon color="white" />
-      <CloseIcon color="white" />
+    <div className={style["navbar"]}>
+      <div className={`d-flex ${style["section"]}`}>
+        <BarsIcon className={style["bars"]} />
+        <NavbarYoutubeLogo className={style["logo"]} />
+      </div>
+      <NavbarSearch className={style["search"]} />
+      <div className={`d-flex `}>
+        <div className={`d-flex ${style["section"]}`}>
+          <CreateVideoIcon className={style["right-icon"]} />
+          <ApplicationsIcon className={style["right-icon"]} />
+          <NotificationIcon className={style["right-icon"]} />
+        </div>
+        <img
+          src="https://yt3.ggpht.com/yti/APfAmoGcf5Nf-PhE9He27ilw3P5u6g_sye-jL_3SdQ=s88-c-k-c0x00ffffff-no-rj-mo"
+          alt="profile"
+          width="32"
+          height="32"
+          className={style["profile-img"]}
+        />
+      </div>
     </div>
   );
 }

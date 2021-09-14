@@ -1,0 +1,40 @@
+@use "../../styles/base/colors";
+
+.input-wrapper {
+  width: 100%;
+}
+
+.input {
+  padding: 7px 8px;
+  background-color: colors.$search_background;
+  color: colors.$text;
+  border: 1px solid colors.$search_border;
+  font-weight: 400;
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 65px;
+  background-color: colors.$search_icon_background;
+  border: 1px solid colors.$search_border;
+  padding: 1px 4px;
+}
+
+.mic-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: colors.$search-dark-background;
+  border-radius: 50%;
+  margin-left: 15px;
+  padding: 0 10px;
+}
