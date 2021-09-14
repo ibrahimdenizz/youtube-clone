@@ -1,4 +1,24 @@
-$background: #202020;
-$dark_background: #181818;
+.dark-theme {
+  --background: #202020;
+  --dark-background: #181818;
 
-$text: #fff;
+  --text: #ffffff;
+
+  --yt-red: #ff0000;
+}
+
+.light-theme {
+  --background: #ffffff;
+  --dark-background: #181818;
+
+  --text: #030303;
+
+  --yt-red: #ff0000;
+}
+
+$background: var(--background);
+$dark_background: var(--dark-background);
+
+$text: var(--text);
+
+$yt_red: var(--yt-red);
