@@ -1,15 +1,38 @@
+@use "../../styles/base/colors";
+
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0px;
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
+  background-color: colors.$background;
 }
 
 .section {
   margin-top: 0.5rem;
 }
 
+.logo {
+  margin-top: 0.6rem;
+}
+
 .bars {
-  margin: 0.3rem 1.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.5rem 0 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.bars:active,
+.bars:focus {
+  border-radius: 50%;
+  background-color: colors.$button_hover_background;
 }
 
 .search {

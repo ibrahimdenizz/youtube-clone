@@ -4,6 +4,7 @@
   --search-background: #121212;
   --search-dark-background: #181818;
   --search-icon-background: #323232;
+  --button-hover-background: rgba(255, 255, 255, 0.2);
 
   --search-border: #303030;
 
@@ -18,6 +19,7 @@
   --search-background: #ffffff;
   --search-dark-background: #f9f9f9;
   --search-icon-background: #f8f8f8;
+  --button-hover-background: rgba(255, 255, 255, 0.2);
 
   --search-border: #cccccc;
 
@@ -30,8 +32,9 @@
 $background: var(--background);
 $dark_background: var(--dark-background);
 $search_background: var(--search-background);
-$search-dark-background: var(--search-dark-background);
-$search-icon-background: var(--search-icon-background);
+$search_dark_background: var(--search-dark-background);
+$search_icon_background: var(--search-icon-background);
+$button_hover_background: var(--button-hover-background);
 
 // borders
 $search_border: var(--search-border);

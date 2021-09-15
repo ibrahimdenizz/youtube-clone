@@ -13,12 +13,14 @@ import Image from "next/image";
 function Navbar() {
   return (
     <div className={style["navbar"]}>
-      <div className={`d-flex ${style["section"]}`}>
-        <BarsIcon className={style["bars"]} />
+      <div className="d-flex">
+        <div className={style["bars"]}>
+          <BarsIcon />
+        </div>
         <NavbarYoutubeLogo className={style["logo"]} />
       </div>
       <NavbarSearch className={style["search"]} />
-      <div className={`d-flex `}>
+      <div className="d-flex">
         <div className={`d-flex ${style["section"]}`}>
           <CreateVideoIcon className={style["right-icon"]} />
           <ApplicationsIcon className={style["right-icon"]} />
